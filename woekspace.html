@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Projects - Tecxone Business Solution</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #141E30, #243B55);
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header_section {
+      background-color: #243B55;
+      padding: 15px 0;
+    }
+
+    .navbar-brand span {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+
+    .navbar-nav .nav-item.active .nav-link {
+      color: #ffc107;
+    }
+
+    .user_option .nav_search-btn {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+    }
+
+    .hero_area {
+      background: url('images/banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+    }
+
+    .hero_area::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .about_section,
+    .project_section,
+    .info_section {
+      padding: 60px 0;
+    }
+
+    .heading_container h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #ffc107;
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      color: #000;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .box .img-box img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .box .detail-box {
+      max-width: 60%;
+    }
+
+    .box .detail-box h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #243B55;
+    }
+
+    .box .detail-box p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .box .btn-box a {
+      background-color: #243B55;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .info_section {
+      background-color: #141E30;
+      padding: 60px 0;
+    }
+
+    .info_contact,
+    .info_info,
+    .info_links,
+    .info_form {
+      color: #fff;
+    }
+
+    .info_contact .info_logo a span {
+      color: #ffc107;
+      font-size: 24px;
+    }
+
+    .info_contact h5,
+    .info_info h5,
+    .info_links h5,
+    .info_form h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .info_contact p,
+    .info_info p,
+    .info_links ul,
+    .info_form form {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .info_links ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .info_links ul li {
+      margin-bottom: 10px;
+    }
+
+    .info_links ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .info_form form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .info_form form button {
+      background-color: #243B55;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .footer_section {
+      background-color: #243B55;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer_section p {
+      margin: 0;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .footer_section p a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+  </style>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              TECXONE BUSINESS SOLUTION
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="model.html">Proposed Models</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="woekspace.html">Workspace</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html"> Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallary.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallary.html"></a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- project section -->
+  <section class="project_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          How We Do Projects
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img style="height: 300px;" src="tecxone image/PHOTO-2024-07-07-11-32-04 (1).jpeg" alt="Analysis Image">
+        </div>
+        <div class="detail-box">
+          <h3>Analysis</h3>
+          <p>
+            We start by thoroughly analyzing the client's requirements and market conditions to develop a clear project scope.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img style="height: 300px;" src="tecxone image/PHOTO-2024-07-07-11-32-06.jpeg" alt="Design Image">
+        </div>
+        <div class="detail-box">
+          <h3>Design</h3>
+          <p>
+            Our creative team designs intuitive and user-friendly solutions that align with the client's brand and objectives.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img style="height: 300px;" src="tecxone image/PHOTO-2024-07-07-10-38-03.jpeg" alt="Implementation Image">
+        </div>
+        <div class="detail-box">
+          <h3>Implementation</h3>
+          <p>
+            We execute the project plan with precision, ensuring seamless integration and functionality across all platforms.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img style="height: 300px;" src="tecxone image/PHOTO-2024-07-07-11-31-39 (1).jpeg" alt="Finishing Image">
+        </div>
+        <div class="detail-box">
+          <h3>Finishing</h3>
+          <p>
+            Our QA team conducts rigorous testing to guarantee quality and performance, delivering a polished final product.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end project section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="info_contact">
+            <div class="info_logo">
+              <a href="#"><span>Tecxone</span></a>
+            </div>
+            <h5>Contact Us</h5>
+            <p>
+              Address: 123 Street, City, Country <br />
+              Phone: +123456789 <br />
+              Email: info@tecxone.com
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info_info">
+            <h5>Company Info</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor sem.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info_links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info_form">
+            <h5>Subscribe Newsletter</h5>
+            <form action="#" method="post">
+              <input type="email" name="email" placeholder="Enter your email">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>&copy; 2024 All Rights Reserved. Design by <a href="#">Tecxone</a></p>
+    </div>
+  </section>
+  <!-- end footer section -->
+
+  <!-- jquery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
